@@ -1,0 +1,31 @@
+table {
+    width: 60%;
+    border-collapse: collapse;
+   
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    background-color: grey;
+}
+th {
+    background-color: #f2f2f2;
+}
+select {
+    margin-bottom: 20px;
+}
+.container{
+   
+     justify-content: center;
+  padding-left: 350px;
+ 
+}
+h1{
+    color: blue;
+    padding-right: 50px;
+  }
+  #country-select{
+    font-size: medium;
+  }
+  

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Public Holidays 2024</h1>
+    <label for="country-select">Select a country:</label>
+    <select id="country-select">
+        <option value="AT">Austria</option>
+        <option value="CA">Canada</option>
+        <option value="DE">Germany</option>
+        <option value="DK">Denmark</option>
+        <option value="IS">Iceland</option>
+        <option value="NO">Norway</option>
+        <option value="NL">Netherlands</option>
+        <option value="SE">Sweden</option>
+        <option value="TR">Turkey</option>
+        <!-- Add more countries as needed -->
+    </select>
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Local Name</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody id="holiday-table-body">
+            <!-- Holidays will be inserted here -->
+        </tbody>
+    </table>
+</div>
+    
+
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
